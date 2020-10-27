@@ -2,7 +2,7 @@
 
 ### 搭建及配置
 
-1)  首先请自行下载[miraiOK](https://github.com/LXY1226/MiraiOK#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80), [cqhttp-mirai插件](https://github.com/yyuueexxiinngg/cqhttp-mirai/releases)  
+1)  首先请自行下载[miraiOK](https://github.com/LXY1226/MiraiOK#%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80), [cqhttp-mirai](https://raw.githubusercontent.com/yimo0908/easy-build-otterbot/main/cqhttp-mirai.jar)  
 
 2)  新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
