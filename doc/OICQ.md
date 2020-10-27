@@ -2,9 +2,9 @@
 
 1. 下载安装 [nodejs](https://nodejs.org/)
 
-2. 下载 [Onebot]((https://github.com/takayama-lily/onebot)) 的 源码包
+2. 下载 [Onebot](https://github.com/takayama-lily/onebot)的 源码包
 
-   点击[链接]((https://github.com/takayama-lily/onebot))下载，或者直接git clone
+   点击[链接](https://github.com/takayama-lily/onebot)下载，或者直接git clone
 
 3. 打开cmd，cd进对应目录
 
