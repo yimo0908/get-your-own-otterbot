@@ -4,7 +4,7 @@
 
 ## 1. miraiOK+cqhttp-mirai
 
-配置方法：[Click me](https://github.com/yimo0908/easy-build-otterbot/blob/main/doc/miraiOK.md)
+配置方法：[Click me](./doc/miraiOK.md)
 
 优点：可自行加载其他mirai插件，缝合想要的功能
 
@@ -12,7 +12,7 @@
 
 ## 2. cqhttp-go
 
-配置方法：[Click me](https://github.com/yimo0908/easy-build-otterbot/blob/main/doc/go.md)
+配置方法：[Click me](./doc/go.md)
 
 优点：持续更新，不需要下载安装其他依赖
 
@@ -20,7 +20,7 @@
 
 ## 3. OICQ
 
-配置方法：[Click me](https://github.com/yimo0908/easy-build-otterbot/blob/main/doc/OICQ.md)
+配置方法：[Click me](./doc/OICQ.md)
 
 优点：持续更新且更新方便，配置操作简单
 
