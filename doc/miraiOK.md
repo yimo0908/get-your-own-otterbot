@@ -66,6 +66,7 @@
 
 自行更改`\config\Console`文件夹里的`AutoLogin.yml`
 
+`plainPasswords`里  
 `123456654321`替换为qq号，`example`替换为qq密码
 
 >```yaml
