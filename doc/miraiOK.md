@@ -58,18 +58,10 @@
 >login QQ账号 QQ密码
 
 并回车，进行登录即可。  
-————→若配置并登录成功，则会在控制台出现以下信息。
-
-```
-[DEBUG] [CQHTTPMirai] Host: bot.pencilss.top, Port: 80, Enable: true, Use Universal: true
-[DEBUG] [CQHTTPMirai] bot.pencilss.top:80-Client-Universal 开始启动
-[DEBUG] [CQHTTPMirai] bot.pencilss.top:80-Client-Universal Websocket Client启动完毕
-```
-
-信息根据窝的不同，会有差异。
-
-
-
+  
+    
+      
+      
 ### 自动登录
 
 自行更改`\config\Console`文件夹里的`AutoLogin.yml`
