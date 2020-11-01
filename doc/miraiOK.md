@@ -6,9 +6,9 @@
 
 2)  新建一个文件夹(以英文命名, eg. tata)，将`miraiOK.exe`放入其中并运行，使其自动生成框架相关文件和文件夹.
 
-3) 关闭`miraiOK`，将`cqhttp-mirai.jar`放入`plugins`文件夹，再次启动`miraiOK.exe`，等到控制台提示登录后关闭.
+3) 关闭`miraiOK`，将`cqhttp-mirai.jar`放入`plugins`文件夹，新建`.\plugins\CQHTTPMirai`文件夹.
 
-4) 新建`.\plugins\CQHTTPMirai`文件夹，并配置`plugins\CQHTTPMirai\setting.yml`文件内容（2种方法）  
+4) 配置`plugins\CQHTTPMirai\setting.yml`文件内容（2种方法）  
 ① 獭窝直接下载 
 ② 复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。 
 
