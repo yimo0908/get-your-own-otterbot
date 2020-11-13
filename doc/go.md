@@ -1,6 +1,6 @@
 # cqhttp-go
 
-#### 1.先请自行下载 
+#### 1.先请自行下载[`cqhttp-go`](https://github.com/Mrs4s/go-cqhttp/releases)
 
 #### 2.新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`，编辑`config.json`
 
@@ -89,7 +89,9 @@
 
 
 
-##### 关于`事件过滤器启动失败: open filter.json: The system cannot find the file specified.`报错
+
+
+### 关于`事件过滤器启动失败: open filter.json: The system cannot find the file specified.`报错
 
 一般不用管，若要启用事件过滤器，请看[相关文档](https://github.com/Mrs4s/go-cqhttp/blob/a417ff08818650cc101e612d82c61d58eef88713/docs/EventFilter.md)
 

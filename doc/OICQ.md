@@ -25,11 +25,9 @@
 
   
 
-####更改登录设备类型
+#### 更改登录设备类型
 
-> ```javascript
-> platform:           2,
-> ```
+在config.js中找到`platform`字段，修改其值即可更改登录设备类型
 
 
 | 值   | 类型  | 登录状态 | 限制                                           |
@@ -37,6 +35,8 @@
 | 0    | Android Pad | 平板在线 | 无法接收 `group_notify` 事件、无法接收口令红包 |
 | 1    | Android Phone| 手机在线 | 无                                             |
 
-  
+---
+
+
 
 `node main xxxxxxxxx`与`npm up`命令卡住可能是连接不上国外服务器，在最后面加上` --registry https://registry.npm.taobao.org`即可
