@@ -2,17 +2,17 @@
 
 1. 下载安装 [nodejs](https://nodejs.org/)
 
-2. 下载 [Onebot](https://github.com/takayama-lily/onebot)的 源码包
+2. 下载 [onebot](https://github.com/takayama-lily/onebot)的 源码包
 
-   点击[链接](https://github.com/takayama-lily/onebot)下载，或者直接git clone
+   （点击[链接](https://github.com/takayama-lily/onebot)下载，或者直接git clone）
 
-3. 打开cmd，cd进对应目录
+3. 打开cmd/powershell，cd进对应目录(onebot-master)
 
 4. 在目录下执行 `npm up` 安装依赖(今后也可使用此命令一键更新内核)
 
 5. 在獭窝中下载并替换`config.js`文件。
 
-6. 运行 `node main 123456789` (数字是你的登陆账号)
+6. 在目录下运行cmd/powshell, 输入指令 `node main 123456789` (数字是你的登陆账号)，回车
 
    （ps.只有第一次登录需要输入密码）
 
