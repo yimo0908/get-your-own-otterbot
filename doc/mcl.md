@@ -93,10 +93,3 @@ bots:
 
 `plainPasswords`里  
 `123456654321`替换为qq号，`example`替换为qq密码
-
-```yaml
-plainPasswords: 
-	123456654321: example
-md5Passwords: 
-	123456654321: 1A 79 A4 D6 0D E6 71 8E 8E 5B 32 6E 33 8A E5 33
-```
