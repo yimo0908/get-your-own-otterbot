@@ -10,7 +10,7 @@
 
 缺点：miraiOK已经停更，cqhttp-mirai也只能使用魔改版；因框架限制，无法使用`/help`指令
 
-## 1.2 mcl (mirai console loader)+cqhttp-mirai (onebot-mirai)
+## 1.2 mcl (mirai console loader)+onebot-mirai
 
 配置方法：[Click me](./doc/mcl.md)
 
@@ -32,9 +32,15 @@
 
 优点：持续更新~~且更新方便（至少个人觉得不是太方便）~~，配置操作简单
 
-缺点：需要安装`node.js`
+缺点：需要安装`node.js`.
 
+## 4. onebot-kotlin
 
+配置方法：[Click me](./doc/onebot-kotlin.md)
+
+优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
+
+缺点：需要安装`jre (Java SE Runtime Environment 8)`或`Java SE Development Kit 11.0.9`或`Java SE Development Kit 15`;因框架限制，无法使用`/help`指令
 
 ## 此三者理论上都可缝合nonebot/HoshinoBot进行功能增加
 

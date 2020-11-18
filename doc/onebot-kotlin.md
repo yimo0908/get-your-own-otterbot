@@ -1,14 +1,14 @@
-# mcl+onebot-mirai
+# onebot-kotlin
 
 ### 搭建与配置
 
-1) 下载并安装[`Java SE Development Kit 11.0.9`](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+1) 下载并安装[`jre (Java SE Runtime Environment 8)`](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)或[`Java SE Development Kit 11.0.9`](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)或[`Java SE Development Kit 15`](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
 
-2) 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
+2) 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3) 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`java -jar mcl.jar`或` ./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
+3) 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
 
-4) 重启mcl，复制以下代码并根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。
+4) 复制以下代码并根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
@@ -83,13 +83,3 @@ bots:
 >login QQ账号 QQ密码
 
 并回车，进行登录即可。  
-
-​      
-​      
-
-### 自动登录
-
-自行更改`\config\Console`文件夹里的`AutoLogin.yml`
-
-`plainPasswords`里  
-`123456654321`替换为qq号，`example`替换为qq密码
