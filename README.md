@@ -52,5 +52,5 @@
 
 
 
-## 此三者理论上都可缝合nonebot/HoshinoBot进行功能增加
+## 理论上都可缝合nonebot/HoshinoBot进行功能增加
 
