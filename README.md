@@ -2,7 +2,9 @@
 
 # easy-build-otterbot
 
-**本仓库所有内容基于windows系统。**
+**本仓库所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
+
+**All things in this repository are based on Windows. If you have any question, please [join the QQ group](https://jq.qq.com/?_wv=1027&k=2ecQU6AV) to seek advice. Thanks for your cooperation.**
 
 ---
 
@@ -76,7 +78,9 @@
 
 缺点：miraiOK已经停更，cqhttp-mirai也只能使用魔改版；因框架限制，无法使用`/help`指令
 
+---
 
+---
 
-## 理论上都可缝合nonebot/HoshinoBot进行功能增加
+## 以上都可缝合nonebot/HoshinoBot进行功能增加
 
