@@ -12,8 +12,6 @@
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
-# Debug日志输出选项
-debug: false
 # 图片、语音下载代理设置
 proxy: ''
 bots: 
@@ -82,4 +80,27 @@ bots:
 
 >login QQ账号 QQ密码
 
-并回车，进行登录即可。  
+并回车，进行登录即可。    
+
+---
+
+### 自动登录与登录协议
+
+自行更改`.\config\Console`目录下的`AutoLogin.yml`文件
+
+```yaml
+accounts: 
+  - # 账号, 现只支持 QQ 数字账号
+    account: 123456
+    password: 
+      # 密码种类, 可选 PLAIN 或 MD5
+      kind: PLAIN
+      # 密码内容, PLAIN 时为密码文本, MD5 时为 16 进制
+      value: pwd
+    # 账号配置. 可用配置列表 (注意大小写):
+    # "protocol": "ANDROID_PHONE" / "ANDROID_PAD" / "ANDROID_WATCH"
+    configuration: 
+      protocol: ANDROID_PHONE
+```
+
+
