@@ -24,7 +24,7 @@
 
 优点：持续更新，不需要下载安装其他依赖
 
-缺点：配置麻烦，无法自动更新（有更新提示）
+缺点：无法自动更新（有更新提示）
 
 ## 3. onebot-kotlin
 
@@ -32,7 +32,7 @@
 
 优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
 
-缺点：需要安装`jre (Java SE Runtime Environment 8)`或`Java SE Development Kit 11.0.9`或`Java SE Development Kit 15`;因框架限制，无法使用`/help`指令
+缺点：需要安装`jre (Java SE Runtime Environment 8)`或`Java SE Development Kit 11.0.9`或`Java SE Development Kit 15`
 
 ## 4. OICQ
 

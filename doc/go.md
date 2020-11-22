@@ -26,7 +26,7 @@
 	},
 	"ignore_invalid_cqcode": false,
 	"force_fragmented": false,
-	"heartbeat_interval": 1500,
+	"heartbeat_interval": 0,
 	"http_config": {
 		"enabled": false,
 		"host": "0.0.0.0",
@@ -81,7 +81,7 @@
 
 >注1: 分片发送为原酷Q发送长消息的老方案, 发送速度更优/兼容性更好，但在有发言频率限制的群里，可能无法发送。关闭后将优先使用新方案, 能发送更长的消息, 但发送速度更慢，在部分老客户端将无法解析   
 >注2：关闭心跳服务可能引起断线，请谨慎关闭    
->注3：缝合塔塔露请打开http功能，在`post_url`字段里按`{"http:tataru.aoba.vip......": ""}`填上相关链接。注意http_config的host与port不得被占用
+>注3：缝合塔塔露请打开http功能，在`post_url`字段里按`{"http:tataru.aoba.vip......": ""}`填上相关链接。注意http_config的host与port不得被占用；且heartbeat_interval需要改成具体数值，防止报错。
 
 
 

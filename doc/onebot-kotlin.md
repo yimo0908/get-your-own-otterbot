@@ -103,4 +103,12 @@ accounts:
       protocol: ANDROID_PHONE
 ```
 
+---
 
+### 日志
+
+新版`console`内置了简单修改日志打印等级的配置, 因此弃用自定义`Logger`
+- `OneBot`配置项中`debug`项作废, 修改此项不会产生任何作用
+- 开启Debug打印的配置请修改`console`本身的配置, 位于`config/Console/Logger.yml`
+  - 可将`defaultPriority: INFO`修改为`defaultPriority: DEBUG`或以上开启所有**mirai及所有插件**的Debug日志输出
+  - **或在`loggers`项下新增`OneBot: DEBUG`或以上单独开启本插件的Debug日志输出**
