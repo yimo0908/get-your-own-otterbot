@@ -2,7 +2,7 @@
 
 ### 搭建与配置
 
-1) 下载并安装[`jre (Java SE Runtime Environment 8)`](https://www.oracle.com/java/technologies/javase-jre8-downloads.html)或[`Java SE Development Kit 11.0.9`](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)或[`Java SE Development Kit 15`](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html)
+1) 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptopenjdk.net/releases.html)或更高
 
 2) 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 

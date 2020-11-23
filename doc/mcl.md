@@ -2,7 +2,7 @@
 
 ### 搭建与配置
 
-1) 下载并安装[`Java SE Development Kit 11.0.9`](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+1) 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptopenjdk.net/releases.html)
 
 2) 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
@@ -85,9 +85,17 @@ bots:
 ​      
 ​      
 
-### 自动登录
+### 自动登录与登录协议
 
-自行更改`\config\Console`文件夹里的`AutoLogin.yml`
+自行更改`.\config\Console`目录下的`AutoLogin.yml`文件
 
-`plainPasswords`里  
-`123456654321`替换为qq号，`example`替换为qq密码
+---
+
+### 日志
+
+新版`console`内置了简单修改日志打印等级的配置, 因此弃用自定义`Logger`
+
+- `OneBot`配置项中`debug`项作废, 修改此项不会产生任何作用
+- 开启Debug打印的配置请修改`console`本身的配置, 位于`config/Console/Logger.yml`
+  - 可将`defaultPriority: INFO`修改为`defaultPriority: DEBUG`或以上开启所有**mirai及所有插件**的Debug日志输出
+  - **或在`loggers`项下新增`OneBot: DEBUG`或以上单独开启本插件的Debug日志输出**

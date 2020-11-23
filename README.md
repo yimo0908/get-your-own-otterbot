@@ -18,7 +18,7 @@
 
 优点：持续更新，且可通过对应脚本指令下载更新本体与插件；可自行加载其他mirai插件，缝合想要的功能
 
-缺点：需要安装`Java(TM) SE Development Kit 11`；因框架限制，无法使用`/help`指令
+缺点：需自行更新插件；需要安装`jre (Java SE Runtime Environment 11)`
 
 ## 2. cqhttp-go
 
@@ -34,7 +34,7 @@
 
 优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
 
-缺点：需要安装`jre (Java SE Runtime Environment 8)`或`Java SE Development Kit 11.0.9`或`Java SE Development Kit 15`
+缺点：无法自动更新；需要安装`jre (Java SE Runtime Environment 8)`或更高
 
 ## 4. OICQ
 
