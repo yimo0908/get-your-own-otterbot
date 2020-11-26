@@ -20,13 +20,13 @@
 
 缺点：需自行更新插件；需要安装`jre (Java SE Runtime Environment 11)`
 
-## 2. cqhttp-go
+## 2.群文件一键包
 
-配置方法：[Click me](./doc/go.md)
+配置方法：[Click me](./doc/mcl.md)
 
-优点：持续更新，不需要下载安装其他依赖
+优点：可自行加载其他mirai插件，缝合想要的功能；不需要下载安装其他依赖
 
-缺点：无法自动更新（有更新提示）
+缺点：需自行更新或等群友更新
 
 ## 3. onebot-kotlin
 
@@ -36,11 +36,19 @@
 
 缺点：无法自动更新；需要安装`jre (Java SE Runtime Environment 8)`或更高
 
-## 4. OICQ
+## 4. cqhttp-go
+
+配置方法：[Click me](./doc/go.md)
+
+优点：持续更新，不需要下载安装其他依赖
+
+缺点：无法自动更新（有更新提示）
+
+## 5. OICQ
 
 配置方法：[Click me](./doc/OICQ.md)
 
-优点：持续更新~~且更新方便（至少个人觉得不是太方便）~~
+优点：暂时停止更新
 
 缺点：需要安装`node.js`
 

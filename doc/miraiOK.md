@@ -8,9 +8,7 @@
 
 3) 关闭`miraiOK`，将`cqhttp-mirai.jar`放入`plugins`文件夹，新建`.\plugins\CQHTTPMirai`文件夹.
 
-4) 配置`plugins\CQHTTPMirai\setting.yml`文件内容（2种方法）  
-① 獭窝直接下载 
-② 复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。 
+4)  复制以下代码并更改`plugins\CQHTTPMirai\setting.yml`文件内容。 
 
 >``` yaml
 ># 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
