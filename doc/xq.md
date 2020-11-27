@@ -50,7 +50,7 @@ cache:
 # 不同姬气人的设置，注意yaml中 "-" 代表一个父节点有多个子节点
 bots:
 # 被设置的姬气人QQ
-- bot: 1706264393
+- bot: 0
   # 正向WS
   websocket:
   # 连接到的服务的名字，自己起
@@ -98,7 +98,7 @@ bots:
     # OneBot服务器 Token ,一般不动
     token: ""
     # OneBot 上报的地址，即插件服务器地址
-    post_url: http://tataru.aoba.vip/api/cq_http_api.php?key=32ecc46c250cc31646626ebac0b0dee0
+    post_url: 
     # OneBot 上报的 Secret，一般不填
     secret: ""
     # 等待响应时间，一般不动
@@ -108,7 +108,7 @@ bots:
 
 ```
 
-6) 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://github.com/Yiwen-Chan/OneBot-YaYa)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
+6) 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
 
 7) 再次重启先驱框架（热重载什么的咕了）
 
