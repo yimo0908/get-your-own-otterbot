@@ -62,7 +62,7 @@
 
 
 
-## 先驱+onebot-yaya
+## [先驱+OneBot-YaYa](https://github.com/Yiwen-Chan/easy-build-otterbot)
 
 配置方法：[Click me](./doc/xq.md)
 
