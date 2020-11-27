@@ -56,7 +56,7 @@
 
 ---
 
-<p align="center">开发中</p>
+<p align="center">如果你不想看黑黑的命令行的话</p>
 
 ---
 
