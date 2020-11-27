@@ -56,19 +56,19 @@
 
 ---
 
-<p align="center">开发中</p>
+<p align="center">如果你不想看黑黑的命令行的话</p>
 
 ---
 
 
 
-## 先驱+onebot-yaya
+## [先驱+OneBot-YaYa](https://github.com/Yiwen-Chan/easy-build-otterbot)
 
 配置方法：[Click me](./doc/xq.md)
 
-优点：框架有gui；可自行加载其他先驱插件，缝合想要的功能
+优点：框架有gui；可自行加载其他先驱插件，缝合想要的功能；更容易看懂
 
-缺点：开发中，目前只支持反向ws的部分功能orz
+缺点：没有bug，是特性
 
 
 
