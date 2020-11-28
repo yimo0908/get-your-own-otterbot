@@ -111,6 +111,7 @@ bots:
 ```
 
 </details>
+
 6) 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
 
 7) 再次重启先驱框架（热重载什么的咕了）
