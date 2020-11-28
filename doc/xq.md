@@ -6,7 +6,9 @@
 
 3) 切到`账号管理`界面登录机器人账号
 
-4) 根据实际情况编辑`.\OneBot\config.yml`文件
+4) 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
+
+<details><summary>或根据实际情况编辑`.\OneBot\config.yml`文件</summary>
 
 - [獭獭](https://xn--v9x.net/)
 1. `master`改为`自己的QQ号`
@@ -108,6 +110,7 @@ bots:
 
 ```
 
+</details>
 6) 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
 
 7) 再次重启先驱框架（热重载什么的咕了）
