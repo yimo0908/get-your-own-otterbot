@@ -26,12 +26,20 @@
 
 - [塔塔露](http://tataru.aoba.vip/cloud/)
 1. `master`改为`自己的QQ号`
+
 2. `bots` --> `bot`改为在獭獭后台申请的`姬气人QQ`
+
 3. `bots` --> `http` --> `name` 改为`塔塔露`
+
 4. `bots` --> `http` --> `enable` 改为`true`
+
 5. `bots` --> `http` --> `post_url` 改为塔塔露后台右上角个人信息里的API的`网址`
 
-5) 详细的配置文件说明
+</details>
+
+
+<details><summary>5) 详细的配置文件说明</summary>
+
 ```
 # 版本
 version: 1.0.5
