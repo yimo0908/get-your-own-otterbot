@@ -38,7 +38,7 @@
 </details>
 
 
-<details><summary>5) 详细的配置文件说明</summary>
+<details><summary>5. 详细的配置文件说明</summary>
 
 ```
 # 版本
