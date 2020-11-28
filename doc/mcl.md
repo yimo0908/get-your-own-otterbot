@@ -93,11 +93,32 @@ bots:
 
 ### 自动登录与登录协议
 
-自行更改`.\config\Console`目录下的`AutoLogin.yml`文件
+<details><summary>自行更改`.\config\Console`目录下的`AutoLogin.yml`文件</summary>
+
+
+```yaml
+accounts: 
+  - # 账号, 现只支持 QQ 数字账号
+    account: 123456
+    password: 
+      # 密码种类, 可选 PLAIN 或 MD5
+      kind: PLAIN
+      # 密码内容, PLAIN 时为密码文本, MD5 时为 16 进制
+      value: pwd
+    # 账号配置. 可用配置列表 (注意大小写):
+    # "protocol": "ANDROID_PHONE" / "ANDROID_PAD" / "ANDROID_WATCH"
+    configuration: 
+      protocol: ANDROID_PHONE
+```
+
+</details>
 
 ---
 
 ### 日志
+
+<details><summary>开启日志</summary>
+
 
 新版`console`内置了简单修改日志打印等级的配置, 因此弃用自定义`Logger`
 
@@ -105,3 +126,5 @@ bots:
 - 开启Debug打印的配置请修改`console`本身的配置, 位于`config/Console/Logger.yml`
   - 可将`defaultPriority: INFO`修改为`defaultPriority: DEBUG`或以上开启所有**mirai及所有插件**的Debug日志输出
   - **或在`loggers`项下新增`OneBot: DEBUG`或以上单独开启本插件的Debug日志输出**
+
+</details>
