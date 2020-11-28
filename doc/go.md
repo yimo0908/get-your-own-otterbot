@@ -2,11 +2,11 @@
 
 #### 1.先请自行下载[`cqhttp-go`](https://github.com/Mrs4s/go-cqhttp/releases)
 
-#### 2.新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`，编辑`config.hjson`
+#### 2.新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`,从獭窝下载配置文件并替换`.\config.hjson（客户端选择Go-cqhttp）
 
-可根据注释及本文档编辑
+<details><summary>或根据注释及本文档编辑</summary>
 
-````json
+```json
 {
 	"uin": 0,
 	"password": "",
@@ -59,9 +59,9 @@
 		"web_input": false
 	}
 }
-````
+```
 
-
+</details>
 
 | 字段                            | 说明                                                        |
 | --------------------------  | ----------------------------------------------------------- |

@@ -8,7 +8,10 @@
 
 3) 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
 
-4) 复制以下代码并根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。
+4) 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+
+<details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
+
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
@@ -75,6 +78,8 @@ bots:
       accessToken: ''
 
 ```
+
+</details>
 
 5)  保存后在控制台输入
 

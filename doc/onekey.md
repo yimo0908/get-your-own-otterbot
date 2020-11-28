@@ -6,7 +6,10 @@
 
 2) 解压一键包，并运行run.cmd 。等待其生成相关文件并关闭控制台。
 
-3) 复制以下代码并根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。
+3) 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+
+<details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
+
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
@@ -73,6 +76,8 @@ bots:
       accessToken: ''
 
 ```
+
+</details>
 
 5)  保存后在控制台输入
 
