@@ -116,8 +116,6 @@ accounts:
 ### 日志
 
 <details><summary>开启日志</summary>
-
-
 新版`console`内置了简单修改日志打印等级的配置, 因此弃用自定义`Logger`
 
 - `OneBot`配置项中`debug`项作废, 修改此项不会产生任何作用
