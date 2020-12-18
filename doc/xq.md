@@ -2,7 +2,7 @@
 
 1) 下载[先驱框架（测试版）](http://api.xianqubot.com/index.php?newver=beta)与[OneBot-YaYa](https://github.com/Yiwen-Chan/OneBot-YaYa/releases) 并解压
 
-2) 解压先驱框架到文件夹，并运行[先驱.exe](http://api.xianqubot.com/index.php?newver=beta)，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架
+2) 解压先驱框架到文件夹，并运行`先驱.exe`，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架
 
 3) 切到`账号管理`界面登录机器人账号
 
