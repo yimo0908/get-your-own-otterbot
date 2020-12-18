@@ -1,6 +1,8 @@
 
 
-# easy-build-otterbot
+![easy-build-otterbot](https://socialify.git.ci/yimo0908/easy-build-otterbot/image?description=1&font=KoHo&logo=https%3A%2F%2Fxn--v9x.net%2Fstatic%2Fdist%2Fimg%2Flogo-1.png&owner=1&pattern=Signal&theme=Dark)
+
+[![](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![](https://img.shields.io/github/license/yimo0908/easy-build-otterbot)](https://github.com/yimo0908/easy-build-otterbot/blob/main/LICENSE)            ![GitHub Repo stars](https://img.shields.io/github/stars/yimo0908/easy-build-otterbot?style=plastic)
 
 **本仓库所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
 
