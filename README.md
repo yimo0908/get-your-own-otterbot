@@ -22,7 +22,7 @@
 
 ## 2.群文件一键包
 
-配置方法：[Click me](./doc/mcl.md)
+配置方法：[Click me](./doc/onekey.md)
 
 优点：可自行加载其他mirai插件，缝合想要的功能；不需要下载安装其他依赖
 
