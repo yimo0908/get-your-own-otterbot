@@ -2,7 +2,7 @@
 
 [![easy-build-otterbot](https://socialify.git.ci/yimo0908/easy-build-otterbot/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fyimo0908%2Feasy-build-otterbot%2Fmain%2Fotter.jpg&owner=1&theme=Light)](https://github.com/Bluefissure/OtterBot/wiki/%E9%A2%86%E5%85%BB%E6%96%87%E6%A1%A3)
 
-[![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            ![system](https://img.shields.io/badge/system-Windows-brightgreen)
+[![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
 
 [![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) [![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F)](https://botapi.dead-war.cn/) [![Website](https://img.shields.io/website?label=%E5%A1%94%E5%A1%94%E9%9C%B2%20&style=social&up_message=link&url=http%3A%2F%2Ftataru.aoba.vip%2Fmain.php)](http://tataru.aoba.vip/main.php)
 
