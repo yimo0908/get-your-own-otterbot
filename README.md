@@ -4,7 +4,7 @@
 
 [![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            ![system](https://img.shields.io/badge/system-Windows-brightgreen)
 
-![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)  ![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F) ![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F) ![Website](https://img.shields.io/website?label=%E5%A1%94%E5%A1%94%E9%9C%B2%20&style=social&up_message=link&url=http%3A%2F%2Ftataru.aoba.vip%2Fmain.php)
+[![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) [![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F)](https://botapi.dead-war.cn/) [![Website](https://img.shields.io/website?label=%E5%A1%94%E5%A1%94%E9%9C%B2%20&style=social&up_message=link&url=http%3A%2F%2Ftataru.aoba.vip%2Fmain.php)](http://tataru.aoba.vip/main.php)
 
 **本仓库所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
 
