@@ -2,8 +2,6 @@
 
 [![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
 
-[![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) [![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F)](https://botapi.dead-war.cn/) [![Website](https://img.shields.io/website?label=%E5%A1%94%E5%A1%94%E9%9C%B2%20&style=social&up_message=link&url=http%3A%2F%2Ftataru.aoba.vip%2Fmain.php)](http://tataru.aoba.vip/main.php)
-
 **本仓库所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
 
 **All things in this repository are based on Windows. If you have any question, please [join the QQ group](https://jq.qq.com/?_wv=1027&k=2ecQU6AV) to seek advice. Thanks for your cooperation.**
@@ -28,7 +26,9 @@ And this repository aims to provide you the ways to build your otterbot.
 
 #### Step 1：在獭窝中注册
 
-登陆獭窝（见上方快捷链接）。
+登陆獭窝（见下方快捷链接）。
+
+[![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) [![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F)](https://botapi.dead-war.cn/)
 
 <details><summary>在领养/更新机器人中添加对应的参数如下：</summary>
 
@@ -58,9 +58,9 @@ And this repository aims to provide you the ways to build your otterbot.
 
 OtterBot通过反向ws与机器人框架的插件进行交流。而通常包含反向ws的插件同时具备正向ws、反向ws、http等功能，因此可以拓展
 
-- [nonebot](https://docs.nonebot.dev/)/[HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)  - 反向ws
+- [nonebot](https://docs.nonebot.dev/) / [HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)  - 反向ws
 - [GroupManager](https://github.com/Yiwen-Chan/GroupManager) - 正向ws
-- [塔塔露](http://tataru.aoba.vip/main.php) - post_url (http)
+- [塔塔露](http://tataru.aoba.vip/main.php)  - post_url (http)
 - 以及其他通过此3中方式连接的拓展
 
 ---
