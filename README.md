@@ -18,13 +18,13 @@ And this repository aims to provide you the ways to build your otterbot.
 
 ---
 
-### 前期准备
+## 前期准备
 
 1. 一个QQ小号
 
 2. 一台接入了互联网的Windows电脑
 
-### 正式领养
+## 正式领养
 
 #### Step 1：在獭窝中注册
 
@@ -48,14 +48,25 @@ And this repository aims to provide you the ways to build your otterbot.
 
 请注意，提交后修改要保证机器人QQ号和Token填写正确，如果遗忘了Token请进群联系群主。
 
-#### Step 2：选择机器人客户端
+#### Step 2：选择机器人框架
 
 可根据自身情况并参考[此文章](./doc/README.md)选择适合自己的客户端
+
+---
+
+## 拓展
+
+OtterBot通过反向ws与机器人框架的插件进行交流。而通常包含反向ws的插件同时具备正向ws、反向ws、http等功能，因此可以拓展
+
+- [nonebot](https://docs.nonebot.dev/)/[HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)  - 反向ws
+- [GroupManager](https://github.com/Yiwen-Chan/GroupManager) - 正向ws
+- [塔塔露](http://tataru.aoba.vip/main.php) - post_url (http)
+- 以及其他通过此3中方式连接的拓展
 
 ---
 
 ## 注意事项
 
 > 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存
-> 2. 必须保持客户端打开状态，机器人才在工作
+> 2. 必须保持框架打开状态，机器人才在工作
 
