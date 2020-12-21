@@ -1,5 +1,3 @@
-
-
 [![easy-build-otterbot](https://socialify.git.ci/yimo0908/easy-build-otterbot/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fyimo0908%2Feasy-build-otterbot%2Fmain%2Fotter.jpg&owner=1&theme=Light)](https://github.com/Bluefissure/OtterBot/wiki/%E9%A2%86%E5%85%BB%E6%96%87%E6%A1%A3)
 
 [![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
@@ -12,87 +10,52 @@
 
 ---
 
-<p align="center">推荐使用</p>
+## OtterBot
+
+A QQ bot for Final Fantasy XIV (mostly served for CN server).
+
+And this repository aims to provide you the ways to build your otterbot.
 
 ---
 
-## 1. mcl (mirai console loader)+onebot-mirai
+### 前期准备
 
-配置方法：[Click me](./doc/mcl.md)
+1. 一个QQ小号
 
-优点：持续更新，且可通过对应脚本指令下载更新本体与插件；可自行加载其他mirai插件，缝合想要的功能
+2. 一台接入了互联网的Windows电脑
 
-缺点：需自行更新插件；需要安装`jre (Java SE Runtime Environment 11)`
+### 正式领养
 
-## 2.群文件一键包
+#### Step 1：在獭窝中注册
 
-配置方法：[Click me](./doc/onekey.md)
+登陆獭窝（见上方快捷链接）。
 
-优点：可自行加载其他mirai插件，缝合想要的功能；不需要下载安装其他依赖
+<details><summary>在领养/更新机器人中添加对应的参数如下：</summary>
 
-缺点：需自行更新或等群友更新
+- 昵称(长度>2)：机器人的名字，你可以叫他獭獭2号，或者自己起名字
 
-## 3. onebot-kotlin
+- QQ账号：机器人QQ号
 
-配置方法：[Click me](./doc/onebot-kotlin.md)
+- 主人QQ：你自己的QQ号
 
-优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
+- Access Token(长度>5)：自定义这个机器人连接时的认证码，可以任意但不得为空。后续会用到请务必记下。
 
-缺点：无法自动更新；需要安装`jre (Java SE Runtime Environment 8)`或更高
+- Tuling Token：是否采用自定义的图灵机器人token，如不使用请留空，将自动移交獭獭的聊天机器人。
 
-## 4. cqhttp-go
+</details>
 
-配置方法：[Click me](./doc/go.md)
+填写完毕后点击添加机器人保存。
 
-优点：持续更新，不需要下载安装其他依赖
+请注意，提交后修改要保证机器人QQ号和Token填写正确，如果遗忘了Token请进群联系群主。
 
-缺点：无法自动更新（有更新提示）
+#### Step 2：选择机器人客户端
 
-## 5. OICQ
-
-配置方法：[Click me](./doc/OICQ.md)
-
-优点：暂时停止更新
-
-缺点：需要安装`node.js`
-
-
+可根据自身情况并参考[此文章](./doc/README.md)选择适合自己的客户端
 
 ---
 
-<p align="center">如果你不想看黑黑的命令行的话</p>
+## 注意事项
 
----
-
-
-
-## 先驱+OneBot-YaYa
-
-配置方法：[Click me](./doc/xq.md)
-
-优点：框架有gui；可自行加载其他先驱插件，缝合想要的功能；更容易看懂
-
-缺点：没有bug，是特性
-
-
-
----
-
-<p align="center">outdated</p>
-
----
-
-## miraiOK+cqhttp-mirai
-
-配置方法：[Click me](./doc/miraiOK.md)
-
-优点：可自行加载其他mirai插件，缝合想要的功能
-
-缺点：miraiOK已经停更，cqhttp-mirai也只能使用魔改版；因框架限制，无法使用`/help`指令
-
----
-
----
-
-## 以上都可缝合[nonebot]([docs.nonebot.dev](https://docs.nonebot.dev/)/[HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)进行功能增加
+> 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存
+> 2. 必须保持客户端打开状态，机器人才在工作
 
