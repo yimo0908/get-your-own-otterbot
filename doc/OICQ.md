@@ -4,7 +4,7 @@
 
 2. 下载 [onebot](https://github.com/takayama-lily/onebot)的 源码包
 
-   （点击[链接](https://github.com/takayama-lily/onebot)下载，或者直接git clone）
+   （点击[链接](https://codeload.github.com/takayama-lily/onebot/zip/master)下载，或者直接git clone）
 
 3. 打开cmd/powershell，cd进对应目录(onebot)
 
