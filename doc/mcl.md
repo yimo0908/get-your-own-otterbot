@@ -2,13 +2,13 @@
 
 ### 搭建与配置
 
-1) 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptopenjdk.net/releases.html)
+1. 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptopenjdk.net/releases.html)
 
-2) 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
+2. 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3) 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`java -jar mcl.jar`或` ./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
+3. 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`java -jar mcl.jar`或` ./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
 
-4) 重启mcl，从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+4. 重启mcl，从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
 
@@ -82,7 +82,7 @@ bots:
 
 
 
-5)  保存后在控制台输入
+5.  保存后在控制台输入
 
 >login QQ账号 QQ密码
 

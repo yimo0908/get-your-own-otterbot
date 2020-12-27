@@ -2,13 +2,13 @@
 
 ### 搭建与配置
 
-1) 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptopenjdk.net/releases.html)或更高
+1. 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptopenjdk.net/releases.html)或更高
 
-2) 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
+2. 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3) 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
+3. 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
 
-4) 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+4. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
 
@@ -81,7 +81,7 @@ bots:
 
 </details>
 
-5)  保存后在控制台输入
+5. 保存后在控制台输入
 
 >login QQ账号 QQ密码
 

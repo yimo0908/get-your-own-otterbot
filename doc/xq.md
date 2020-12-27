@@ -1,12 +1,12 @@
 # 先驱獭
 
-1) 下载[先驱框架（测试版）](http://api.xianqubot.com/index.php?newver=beta)与[OneBot-YaYa](https://github.com/Yiwen-Chan/OneBot-YaYa/releases) 并解压
+1. 下载[先驱框架（测试版）](http://api.xianqubot.com/index.php?newver=beta)与[OneBot-YaYa](https://github.com/Yiwen-Chan/OneBot-YaYa/releases) 并解压
 
-2) 解压先驱框架到文件夹，并运行`先驱.exe`，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架
+2. 解压先驱框架到文件夹，并运行`先驱.exe`，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架
 
-3) 切到`账号管理`界面登录机器人账号
+3. 切到`账号管理`界面登录机器人账号
 
-4) 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
+4. 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
 
 <details><summary>或根据实际情况编辑`.\OneBot\config.yml`文件</summary>
 
@@ -120,8 +120,8 @@ bots:
 
 </details>
 
-6) 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
+6. 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
 
-7) 再次重启先驱框架（热重载什么的咕了）
+7. 再次重启先驱框架（热重载什么的咕了）
 
 - 注：不要使用`重载插件`功能，否则会导致框架闪退，此为框架与go不兼容问题

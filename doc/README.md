@@ -13,7 +13,7 @@
 
 缺点：需自行更新插件；需要安装`jre (Java SE Runtime Environment 11)`
 
-## 2.群文件一键包
+## 2. 群文件一键包
 
 配置方法：[Click me](./onekey.md)
 
