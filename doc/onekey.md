@@ -6,7 +6,8 @@
 2. 解压一键包，阅读`读我！.txt`。
 3. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
-<details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
+<details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>  
+
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
 # 图片、语音下载代理设置
@@ -70,10 +71,9 @@ bots:
       wsHost: 0.0.0.0
       wsPort: 6700
       accessToken: ''
+```  
 
-```
-
-</details>
+</details>  
 
 4. 保存后启动`run.bat`.
 
