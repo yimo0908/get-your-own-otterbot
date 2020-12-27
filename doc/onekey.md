@@ -2,15 +2,11 @@
 
 ### 搭建与配置
 
-1) 阅读`读我！.txt`
-
-2) 解压一键包，并运行run.cmd 。等待其生成相关文件并关闭控制台。
-
-3) 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+1. 从群文件/本仓库releases页面下载一键包
+2. 解压一键包，阅读`读我！.txt`。
+3. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
-
-
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
 # 图片、语音下载代理设置
@@ -79,11 +75,13 @@ bots:
 
 </details>
 
-5)  保存后在控制台输入
+4. 保存后启动`run.bat`.
+
+5. 在控制台输入
 
 >login QQ账号 QQ密码
 
-并回车，进行登录即可。  
+​	并回车，进行登录即可。  
 
 ​      
 
