@@ -1,4 +1,5 @@
 [![easy-build-otterbot](https://socialify.git.ci/yimo0908/easy-build-otterbot/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fyimo0908%2Feasy-build-otterbot%2Fmain%2Fotter.jpg&owner=1&theme=Light)](https://github.com/Bluefissure/OtterBot/wiki/%E9%A2%86%E5%85%BB%E6%96%87%E6%A1%A3)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot?ref=badge_shield)
 
 [![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
 
@@ -78,3 +79,7 @@ OtterBot通过反向ws与机器人框架的插件进行交流。而通常包含�
 > 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存
 > 2. 必须保持框架打开状态，机器人才在工作
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot?ref=badge_large)
