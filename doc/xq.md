@@ -47,16 +47,6 @@ version: 1.0.5
 master: 12345678
 # 是否开启DEBUG日志
 debug: true
-# 心跳设置，默认不动
-heratbeat:
-  enable: true
-  interval: 10000
-# 缓存设置，暂未实现
-cache:
-  database: false
-  image: false
-  record: false
-  video: false
 # 不同姬气人的设置，注意yaml中 "-" 代表一个父节点有多个子节点
 bots:
 # 被设置的姬气人QQ
@@ -83,12 +73,6 @@ bots:
     enable: false
     # 插件服务器的地址，一般只需要改端口
     url: ws://127.0.0.1:8080/ws
-    # 暂未实现
-    api_url: ws://127.0.0.1:8080/api
-    # 暂未实现
-    event_url: ws://127.0.0.1:8080/event
-    # 暂未实现
-    use_universal_client: true
     # 插件填了 Token 这里也要填
     access_token: ""
     # OneBot上报格式，可为 string 或 array ，一般不动
@@ -111,8 +95,6 @@ bots:
     post_url: 
     # OneBot 上报的 Secret，一般不填
     secret: ""
-    # 等待响应时间，一般不动
-    time_out: 0
     # OneBot上报格式，可为 string 或 array ，一般不动
     post_message_format: string
 
@@ -122,6 +104,4 @@ bots:
 
 6. 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
 
-7. 再次重启先驱框架（热重载什么的咕了）
-
-- 注：不要使用`重载插件`功能，否则会导致框架闪退，此为框架与go不兼容问题
+- 注：不要使用`重载插件`功能，修改保存配置文件后会自动热重载
