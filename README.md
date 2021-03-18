@@ -57,9 +57,9 @@ And this repository aims to provide you the ways to build your otterbot.
 
 ## 占卜
 
-- mirai一键包自带占卜插件
-- mcl/onebot-kotlin可自行加载mirai_native插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
-- 所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。请注意nonebot的版本，v1 v2互不兼容。
+- mirai一键包自带占卜插件（**native插件，win only**）
+- **[win only]**mcl/onebot-kotlin可自行加载mirai_native插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
+- **[all os]**所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。请注意nonebot的版本，v1 v2互不兼容。
 
 ---
 
