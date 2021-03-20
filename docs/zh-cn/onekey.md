@@ -2,7 +2,7 @@
 
 ### 搭建与配置
 
-1. 从群文件/本仓库releases页面下载一键包
+1. 从群文件/[releases页面](https://github.com/yimo0908/easy-build-otterbot/releases)下载一键包
 2. 解压一键包，阅读`读我！.txt`。
 3. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
@@ -71,7 +71,7 @@ bots:
       wsHost: 0.0.0.0
       wsPort: 6700
       accessToken: ''
-```  
+```
 
 </details>  
 
