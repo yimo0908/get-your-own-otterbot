@@ -49,7 +49,7 @@ And this repository aims to provide you the ways to build your otterbot.
 
 ## Step 2：选择机器人框架
 
-可根据自身情况并参考[此文章](./doc/README.md)选择适合自己的客户端
+可根据自身情况并参考[此文章](./zh-cn/choice.md)选择适合自己的客户端
 
 ---
 
@@ -74,8 +74,8 @@ OtterBot通过反向ws与机器人框架的插件进行交流。而通常包含�
 
 # 注意事项
 
-> 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存
-> 2. 必须保持框架打开状态，机器人才在工作
+!> 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存  
+2. 必须保持框架打开状态，机器人才在工作
 
 
 
