@@ -55,19 +55,14 @@ default-middlewares: &default
     bucket: 1
 
 servers:
-  # HTTP 通信设置
   - http:
       # 是否关闭正向HTTP服务器
       disabled: false
-      # 服务端监听地址
       host: 127.0.0.1
-      # 服务端监听端口
       port: 5700
-      # 反向HTTP超时时间, 单位秒
-      # 最小值为5，小于5将会忽略本项设置
       timeout: 5
       middlewares:
-        <<: *default # 引用默认中间件
+        <<: *default
       # 反向HTTP POST地址列表
       post:
       #- url: '' # 地址
@@ -84,7 +79,7 @@ servers:
       # 正向WS服务器监听端口
       port: 6700
       middlewares:
-        <<: *default # 引用默认中间件
+        <<: *default
 
   - ws-reverse:
       # 是否禁用当前反向WS服务
@@ -92,8 +87,7 @@ servers:
       # 反向WS Universal 地址
       # 主窝：
       # 笔窝：ws://bot.pencilss.top/ws/
-      # 风窝：
-      # 注意 设置了此项地址后下面两项将会被忽略
+      # 风窝：wss://botapi.dead-war.cn:443/ws/
       universal: ws://your_websocket_universal.server
       api: ws://your_websocket_api.server
       event: ws://your_websocket_event.server
