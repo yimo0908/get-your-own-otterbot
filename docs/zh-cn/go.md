@@ -4,85 +4,119 @@
 
 1. 先请自行下载[`cqhttp-go`](https://github.com/Mrs4s/go-cqhttp/releases)
 
-2. 新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`,从獭窝下载配置文件并替换`.\config.hjson`（客户端选择Go-cqhttp）
+2. 新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`,从獭窝下载配置文件并替换`.\config.yml`（客户端选择Go-cqhttp）
 
-<details><summary>或根据注释及本文档编辑</summary>
+<details><summary>或根据注释及本文档编辑（只需要在意带注释的字段，其余字段请不要更改）</summary>
 
-```json
-{
-	"uin": 0,
-	"password": "",
-	"encrypt_password": false,
-	"password_encrypted": "",
-	"enable_db": true,
-	"access_token": "",
-	"relogin": {
-		"enabled": true,
-		"relogin_delay": 3,
-		"max_relogin_times": 0
-	},
-	"_rate_limit": {
-		"enabled": false,
-		"frequency": 1,
-		"bucket_size": 1
-	},
-	"ignore_invalid_cqcode": false,
-	"force_fragmented": false,
-	"heartbeat_interval": 0,
-	"http_config": {
-		"enabled": false,
-		"host": "0.0.0.0",
-		"port": 3500,
-		"timeout": 0,
-		"post_urls": {}
-	},
-	"ws_config": {
-		"enabled": false,
-		"host": "0.0.0.0",
-		"port": 6700
-	},
-	"ws_reverse_servers": [
-		{
-			"enabled": true,
-			"reverse_url": "ws://xn--v9x.net/ws",
-			"reverse_api_url": "ws://xn--v9x.net/api",
-			"reverse_event_url": "ws://xn--v9x.net/event",
-			"reverse_reconnect_interval": 3000
-		}
-	],
-	"post_message_format": "string",
-	"use_sso_address": false,
-	"debug": false,
-	"log_level": "",
-	"web_ui": {
-		"enabled": true,
-		"host": "127.0.0.1",
-		"web_ui_port": 9999,
-		"web_input": false
-	}
-}
+```yaml
+# go-cqhttp 默认配置文件
+
+account: # 账号相关
+  uin: 1233456 # 机器人的QQ账号
+  password: '' # 机器人的qq密码，密码为空时使用扫码登录
+  encrypt: false
+  status: 0      # 在线状态 请参考 https://github.com/Mrs4s/go-cqhttp/blob/dev/docs/config.md#在线状态
+  relogin:
+    disabled: false
+    delay: 3
+    interval: 0
+    max-times: 0
+  use-sso-address: true
+
+heartbeat:
+  disabled: false # 是否开启心跳事件上报
+  # 心跳频率, 单位秒
+  # -1 为关闭心跳
+  interval: 5
+
+message:
+  post-format: string
+  ignore-invalid-cqcode: false
+  force-fragment: false
+  fix-url: false
+  proxy-rewrite: ''
+  report-self-message: false
+  remove-reply-at: false
+  extra-reply-data: false
+
+output:
+  # 日志等级 trace,debug,info,warn,error
+  log-level: warn
+  # 是否启用 DEBUG
+  debug: false # 开启调试模式
+
+default-middlewares: &default
+  # 访问密钥, 即申请獭獭时的token
+  access-token: ''
+  filter: ''
+  rate-limit:
+    enabled: false
+    frequency: 1
+    bucket: 1
+
+servers:
+  # HTTP 通信设置
+  - http:
+      # 是否关闭正向HTTP服务器
+      disabled: false
+      # 服务端监听地址
+      host: 127.0.0.1
+      # 服务端监听端口
+      port: 5700
+      # 反向HTTP超时时间, 单位秒
+      # 最小值为5，小于5将会忽略本项设置
+      timeout: 5
+      middlewares:
+        <<: *default # 引用默认中间件
+      # 反向HTTP POST地址列表
+      post:
+      #- url: '' # 地址
+      #  secret: ''           # 密钥
+      #- url: 127.0.0.1:5701 # 地址
+      #  secret: ''          # 密钥
+
+  # 正向WS设置
+  - ws:
+      # 是否禁用正向WS服务器
+      disabled: true
+      # 正向WS服务器监听地址
+      host: 127.0.0.1
+      # 正向WS服务器监听端口
+      port: 6700
+      middlewares:
+        <<: *default # 引用默认中间件
+
+  - ws-reverse:
+      # 是否禁用当前反向WS服务
+      disabled: true
+      # 反向WS Universal 地址
+      # 主窝：
+      # 笔窝：ws://bot.pencilss.top/ws/
+      # 风窝：
+      # 注意 设置了此项地址后下面两项将会被忽略
+      universal: ws://your_websocket_universal.server
+      api: ws://your_websocket_api.server
+      event: ws://your_websocket_event.server
+      # 重连间隔 单位毫秒
+      reconnect-interval: 3000
+      middlewares:
+        <<: *default
+  - pprof:
+      disabled: true
+      host: 127.0.0.1
+      port: 7700
+
+  # 可添加更多
+  #- ws-reverse:
+  #- ws:
+  #- http:
+  #- pprof:
+
+database:
+  leveldb:
+    enable: true
+
 ```
-
-| 字段                            | 说明                                                        |
-| --------------------------  | ----------------------------------------------------------- |
-| uin                             | 登录用QQ号                                                  |
-| password                        | 登录用密码                                                  |
-| access_token                    | 同CQHTTP的 `access_token`  用于身份验证（獭獭のtoken）      |
-| force_fragmented                 | 是否强制分片发送群长消息                                    |
-| heartbeat_interval               | 心跳间隔时间，单位秒。小于0则关闭心跳，等于0使用默认值(5秒) |
-| http_config                      | HTTP API配置                                                |
-| ws_config                      | Websocket API 配置                                          |
-| ws_reverse_servers              | 反向 Websocket API 配置                                     |
-| reverse_url                      | 獭窝のws地址（如`ws://bot.pencilss.top/ws`）                 |
-| reverse_api_url                | 獭窝のws-api地址（如`ws://bot.pencilss.top/api`,可留空）    |
-| reverse_reconnect_interval      | 獭窝のws-event地址（如`ws://bot.pencilss.top/event`,可留空） |
-| reverse_reconnect_interval |       ws重连间隔                                |
-
-
->注1: 分片发送为原酷Q发送长消息的老方案, 发送速度更优/兼容性更好，但在有发言频率限制的群里，可能无法发送。关闭后将优先使用新方案, 能发送更长的消息, 但发送速度更慢，在部分老客户端将无法解析   
->注2：关闭心跳服务可能引起断线，请谨慎关闭    
->注3：缝合塔塔露请打开http功能，在`post_url`字段里按`{"http:tataru.aoba.vip......": ""}`填上相关链接。注意http_config的host与port不得被占用；且heartbeat_interval需要改成具体数值，防止报错。
-
 
 
 </details>
