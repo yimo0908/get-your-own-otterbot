@@ -118,14 +118,17 @@ database:
 3. 保存后启动`go-cqhttp.exe`即可。  
 
 4. 关于缝合塔塔露
-请更改
+请更改  
+
 ```yaml
 servers:
   - http:
       post:
       #- url: '' # 地址
-```
-为：
+```  
+
+为：  
+
 ```yaml
 servers:
   - http:
