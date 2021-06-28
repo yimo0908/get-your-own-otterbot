@@ -49,13 +49,13 @@ And this repository aims to provide you the ways to build your otterbot.
 
 ## Step 2：选择机器人框架
 
-可根据自身情况并参考[此文章](./zh-cn/choice.md)选择适合自己的客户端
+可根据自身情况并参考[此文章](./choice.md)选择适合自己的客户端
 
 ---
 
 # 占卜
 
-- mirai一键包自带占卜插件（**native插件，win only**）
+- **[native插件，win only]** mirai一键包自带占卜插件
 - **[win only]** mcl/onebot-kotlin可自行加载mirai_native插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
 - **[all os]** 所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。请注意nonebot的版本，v1 v2互不兼容。
 

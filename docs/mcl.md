@@ -1,17 +1,16 @@
-# onebot-kotlin
+# mcl+onebot-mirai
 
 ### 搭建与配置
 
-1. 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptopenjdk.net/releases.html)或更高
+1. 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptopenjdk.net/releases.html)
 
-2. 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
+2. 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3. 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
+3. 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`java -jar mcl.jar`或` ./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
 
-4. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+4. 重启mcl，从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 
-<details><summary>或根据注释和实际情况更改`.\config\OneBot\settings.yml`文件内容。</summary>
-
+<details><summary>或根据注释和实际情况更改<font color="orange"><b>.\config\OneBot\settings.yml</b></font>文件内容。</summary> 
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
@@ -81,17 +80,20 @@ bots:
 
 </details>
 
-5. 保存后在控制台输入
+
+
+5.  保存后在控制台输入
 
 >login QQ账号 QQ密码
 
-并回车，进行登录即可。    
+并回车，进行登录即可。  
 
 ---
 
 ### 自动登录与登录协议
 
-<details><summary>自行更改`.\config\Console`目录下的`AutoLogin.yml`文件</summary>
+<details><summary>自行更改<font color="orange"><b>.\config\Console</b></font>目录下的<font color="orange"><b>AutoLogin.yml</b></font>文件</summary>
+
 
 ```yaml
 accounts: 
@@ -111,9 +113,11 @@ accounts:
 </details>
 
 ---
+
 ### 日志
 
 <details><summary>开启日志</summary>
+
 新版`console`内置了简单修改日志打印等级的配置, 因此弃用自定义`Logger`
 
 - `OneBot`配置项中`debug`项作废, 修改此项不会产生任何作用
@@ -122,4 +126,3 @@ accounts:
   - **或在`loggers`项下新增`OneBot: DEBUG`或以上单独开启本插件的Debug日志输出**
 
 </details>
-

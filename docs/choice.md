@@ -6,7 +6,7 @@
 
 ## 1. mcl (mirai console loader)+onebot-mirai
 
-配置方法：[Click me](./zh-cn/mcl.md)
+配置方法：[Click me](./mcl.md)
 
 优点：持续更新，且可通过对应脚本指令下载更新本体与插件；可自行加载其他mirai插件，缝合想要的功能
 
@@ -14,7 +14,7 @@
 
 ## 2. 群文件一键包
 
-配置方法：[Click me](./zh-cn/onekey.md)
+配置方法：[Click me](./onekey.md)
 
 优点：可自行加载其他mirai插件，缝合想要的功能；不需要下载安装其他依赖
 
@@ -22,7 +22,7 @@
 
 ## 3. onebot-kotlin
 
-配置方法：[Click me](./zh-cn/onebot-kotlin.md)
+配置方法：[Click me](./onebot-kotlin.md)
 
 优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
 
@@ -30,7 +30,7 @@
 
 ## 4. cqhttp-go
 
-配置方法：[Click me](./zh-cn/go.md)
+配置方法：[Click me](./go.md)
 
 优点：持续更新，不需要下载安装其他依赖
 
@@ -38,7 +38,7 @@
 
 ## 5. OICQ
 
-配置方法：[Click me](./zh-cn/OICQ.md)
+配置方法：[Click me](./OICQ.md)
 
 优点：暂时停止更新
 
@@ -52,7 +52,7 @@
 
 ## 先驱+OneBot-YaYa
 
-配置方法：[Click me](./zh-cn/xq.md)
+配置方法：[Click me](./xq.md)
 
 优点：易用；有界面；类似酷Q，装上插件就能用；可缝合先驱插件；更稳定的连接
 

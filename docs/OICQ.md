@@ -17,11 +17,11 @@
    （ps.只有第一次登录需要输入密码）
 
 7. 想要缝合塔塔露只需要在post_url那里加上对应的塔塔露url就行
->```javascrip
->post_url: [
->	“塔塔露的url”
->],
->```
+> ```javascript
+> post_url: [
+> 	“塔塔露的url”
+> ],
+> ```
 
   
 

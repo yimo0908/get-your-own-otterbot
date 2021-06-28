@@ -8,7 +8,7 @@
 
 4. 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
 
-<details><summary>或根据实际情况编辑`.\OneBot\config.yml`文件</summary>
+<details><summary>或根据实际情况编辑<font color="orange"><b>.\OneBot\config.yml</b>></font>文件</summary>
 
 - [獭獭](https://xn--v9x.net/)
 1. `master`改为`自己的QQ号`
@@ -40,7 +40,7 @@
 
 <details><summary>5. 详细的配置文件说明</summary>
 
-```
+```yaml
 # 版本
 version: 1.0.5
 # 主人QQ号

@@ -117,8 +117,7 @@ database:
 
 3. 保存后启动`go-cqhttp.exe`即可。  
 
-4. 关于缝合塔塔露
-请更改  
+<details><summary>4. 关于缝合塔塔露,请更改</summary>  
 
 ```yaml
 servers:
@@ -137,7 +136,7 @@ servers:
 ```
 只用改这一行  
 
-
+</details>
 
 
 ### 事件过滤器
@@ -150,9 +149,11 @@ servers:
 
 
 
-### 设备信息 `device.json`文件
+### 更改登录设备版本
 
-只需要关心 `protocol` 字段: 
+找到设备信息 `device.json`文件
+
+<details><summary>更改<b>protocol</b>字段即可: </summary>
 
 | 值   | 类型  | 登录状态 | 限制                                           |
 | ---- | --------|----- | ---------------------------------------------- |
@@ -161,6 +162,7 @@ servers:
 | 2 | Android Watch | 安卓手表在线 | 除`Android Phone`的限制外, 无法接收 `notify` 事件、无法接收口令红包、无法接收撤回消息 |
 | 3 | MacOS | 苹果电脑在线 | 无 |
 
+</details>
 
 > 注意, 根据协议的不同, 各类消息有所限制
 >
