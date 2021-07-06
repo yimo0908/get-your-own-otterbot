@@ -19,8 +19,6 @@
 
 * [占卜](README.md?id=占卜)
 
-* [拓展](README.md?id=拓展)
-
 * [注意事项](README.md?id=注意事项)
 
 * [License](README.md?id=License)
