@@ -1,28 +1,27 @@
-# _
-[![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
+# 写在前面 
+[![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://www.microsoft.com/zh-cn/software-download)
 
-**本仓库所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
+**此页面所有内容基于Windows系统。有任何问题请[进群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)询问大佬，感谢合作。**
 
-**All things in this repository are based on Windows. If you have any question, please [join the QQ group](https://jq.qq.com/?_wv=1027&k=2ecQU6AV) to seek advice. Thanks for your cooperation.**
+**All things in this page are based on Windows. If you have any question, please [join the QQ group](https://jq.qq.com/?_wv=1027&k=2ecQU6AV) to seek advice. Thanks for your cooperation.**
 
 ---
 
-# OtterBot
+# [OtterBot](https://github.com/Bluefissure/OtterBot) 
 
 A QQ bot for Final Fantasy XIV (mostly served for CN server).
 
-And this repository aims to provide you the ways to build your otterbot.
-
 ---
 
-# 前期准备
+# 前期准备 
 
 1. 一个QQ小号
 
 2. 一台接入了互联网的Windows电脑
 
-# 正式领养
+---
 
+# 正式领养 
 ## Step 1：在獭窝中注册
 
 登陆獭窝（见下方快捷链接）。
@@ -53,32 +52,21 @@ And this repository aims to provide you the ways to build your otterbot.
 
 ---
 
-# 占卜
+# 占卜 
 
 - **[win only]** mirai一键包自带占卜插件
-- **[win only]** mcl/onebot-kotlin可自行加载mirai_native插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
-- **[win only]** 先驱可自行加载cqxq插件后，在群文件获得占卜插件的dll和json文件，再通过cqxq加载占卜插件
-- **[all os]** 所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。请注意nonebot的版本，v1 v2互不兼容。
+- **[win only]** mcl/onebot-kotlin可自行加载**mirai_native**插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
+- **[win only]** 先驱可自行加载**cqxq**插件后，在群文件获得占卜插件的dll和json文件，再通过cqxq加载占卜插件
+- **[all os]** 所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。**请注意nonebot的版本，v1 v2互不兼容。**
 
 ---
 
-# 拓展
+# 注意事项 
 
-OtterBot通过反向ws与机器人框架的插件进行交流。而通常包含反向ws的插件同时具备正向ws、反向ws、http等功能，因此可以拓展
-
-- [nonebot](https://docs.nonebot.dev/) / [HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)  - 反向ws
-- [GroupManager](https://github.com/Yiwen-Chan/GroupManager) - 正向ws
-- [塔塔露](http://tataru.aoba.vip/main.php)  - post_url (http)
-- 以及其他通过此3种方式连接的拓展
-
----
-
-# 注意事项
-
-!> 1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存  
+!>1. 拉机器人进入新群，或退出旧群后。可能需要使用`/bot update`来刷新机器人的群缓存 。  
 2. 必须保持框架打开状态，机器人才在工作
 
+---
 
-
-# License
+# License 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fyimo0908%2Feasy-build-otterbot?ref=badge_large)

@@ -34,7 +34,6 @@ bots:
       host: 0.0.0.0
       port: 5700
       accessToken: ''
-      # 事件及数据上报URL,即塔塔露提供的url
       postUrl: ''
       postMessageFormat: string
       secret: ''
@@ -44,10 +43,10 @@ bots:
         postMessageFormat: string
         # 主窝 xn--v9x.net
         # 食材村（笔窝）bot.pencilss.top
-        # 风窝 temp.dead-war.cn
+        # 风窝 botapi.dead-war.cn
         # 鸡窝 tata.guomie.club
         reverseHost: 
-        # 主窝、食材村(笔窝)和鸡窝填80，风窝填8002
+        # 主窝、食材村(笔窝)和鸡窝填80，风窝填4
         reversePort: 
         # 访问口令，獭窝申请的时候的token
         accessToken: 

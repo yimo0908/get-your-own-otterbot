@@ -55,32 +55,6 @@ default-middlewares: &default
     bucket: 1
 
 servers:
-  - http:
-      # 是否关闭正向HTTP服务器
-      disabled: false
-      host: 127.0.0.1
-      port: 5700
-      timeout: 5
-      middlewares:
-        <<: *default
-      # 反向HTTP POST地址列表
-      post:
-      #- url: '' # 地址
-      #  secret: ''           # 密钥
-      #- url: 127.0.0.1:5701 # 地址
-      #  secret: ''          # 密钥
-
-  # 正向WS设置
-  - ws:
-      # 是否禁用正向WS服务器
-      disabled: true
-      # 正向WS服务器监听地址
-      host: 127.0.0.1
-      # 正向WS服务器监听端口
-      port: 6700
-      middlewares:
-        <<: *default
-
   - ws-reverse:
       # 是否禁用当前反向WS服务
       disabled: true
@@ -95,10 +69,6 @@ servers:
       reconnect-interval: 3000
       middlewares:
         <<: *default
-  - pprof:
-      disabled: true
-      host: 127.0.0.1
-      port: 7700
 
   # 可添加更多
   #- ws-reverse:
@@ -117,26 +87,6 @@ database:
 
 3. 保存后启动`go-cqhttp.exe`即可。  
 
-<details><summary>4. 关于缝合塔塔露,请更改</summary>  
-
-```yaml
-servers:
-  - http:
-      post:
-      #- url: '' # 地址
-```  
-
-为：  
-
-```yaml
-servers:
-  - http:
-      post:
-      - url: '塔塔露的api'
-```
-只用改这一行  
-
-</details>
 
 
 ### 事件过滤器

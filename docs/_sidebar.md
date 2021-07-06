@@ -1,6 +1,4 @@
-<!-- docs/_sidebar.md -->
-
-* [OtterBot](README.md?id=otterbot)
+- [OtterBot](README.md?id=otterbot)
 
 * [前期准备](README.md?id=前期准备)
 
@@ -14,10 +12,10 @@
         * [- mcl](mcl.md)
         * [- mirai一键包](onekey.md)
         * [- onebot-kotlin](onebot-kotlin.md)
-        * [- cqhttp-go](go.md)
+        * [【推荐】- cqhttp-go](go.md)
         * [- OICQ](OICQ.md)
     * [Gui模式](choice.md?id=有界面，直接上手)
-        * [- 先驱](xq.md)
+        * [【推荐】- 先驱](xq.md)
 
 * [占卜](README.md?id=占卜)
 
@@ -26,3 +24,4 @@
 * [注意事项](README.md?id=注意事项)
 
 * [License](README.md?id=License)
+

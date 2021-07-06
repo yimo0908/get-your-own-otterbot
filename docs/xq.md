@@ -9,8 +9,6 @@
 4. 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
 
 <details><summary>或根据实际情况编辑<font color="orange"><b>.\OneBot\config.yml</b>></font>文件</summary>
-
-- [獭獭](https://xn--v9x.net/)
 1. `master`改为`自己的QQ号`
 2. `bots` --> `bot`改为在獭獭后台申请的`姬气人QQ`
 3. `bots` --> `websocket_reverse` --> `name` 改为`獭獭`
@@ -19,21 +17,10 @@
 ```
 主窝 ws://xn--v9x.net:80/ws
 笔窝 ws://bot.pencilss.top/ws
-风窝 ws://temp.dead-war.cn/ws
+风窝 ws://botapi.dead-war.cn:443/ws
 鸡窝 ws://tata.guomie.club/ws
 ```
 6. `bots` --> `websocket_reverse` --> `access_token` 改为獭獭后台申请时所填的`token`
-
-- [塔塔露](http://tataru.aoba.vip/cloud/)
-1. `master`改为`自己的QQ号`
-
-2. `bots` --> `bot`改为在獭獭后台申请的`姬气人QQ`
-
-3. `bots` --> `http` --> `name` 改为`塔塔露`
-
-4. `bots` --> `http` --> `enable` 改为`true`
-
-5. `bots` --> `http` --> `post_url` 改为塔塔露后台右上角个人信息里的API的`网址`
 
 </details>
 
