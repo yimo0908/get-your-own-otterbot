@@ -4,7 +4,7 @@
 
 1. 先请自行下载[`cqhttp-go`](https://github.com/Mrs4s/go-cqhttp/releases)
 
-2. 新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`,从獭窝下载配置文件并替换`.\config.yml`（客户端选择Go-cqhttp）（**还没实装**）
+2. 新建一个文件夹(以英文命名, eg. `tata`)，将`go-cqhttp.exe`放入其中并运行，使其自动生成框架相关文件和文件夹，然后关闭`go-cqhttp`,从獭窝下载配置文件并替换`.\config.yml`（客户端选择Go-cqhttp）（**实装中**）
 
 <details><summary>或根据注释及本文档编辑（只需要在意带注释的字段，其余字段请不要更改）</summary>
 
@@ -13,7 +13,7 @@
 
 account: # 账号相关
   uin: 1233456 # 机器人的QQ账号
-  password: '' # 机器人的qq密码，密码为空时使用扫码登录
+  password: '' # 机器人的qq密码，密码为空时使用扫码登录（推荐）
   encrypt: false
   status: 0      # 在线状态 请参考 https://github.com/Mrs4s/go-cqhttp/blob/dev/docs/config.md#在线状态
   relogin:
@@ -24,7 +24,6 @@ account: # 账号相关
   use-sso-address: true
 
 heartbeat:
-  disabled: false # 是否开启心跳事件上报
   # 心跳频率, 单位秒
   # -1 为关闭心跳
   interval: 5
@@ -56,15 +55,13 @@ default-middlewares: &default
 
 servers:
   - ws-reverse:
-      # 是否禁用当前反向WS服务
-      disabled: true
       # 反向WS Universal 地址
-      # 主窝：
+      # 主窝：ws://xn--v9x.net/ws
       # 笔窝：ws://bot.pencilss.top/ws/
       # 风窝：wss://botapi.dead-war.cn:443/ws/
       universal: ws://your_websocket_universal.server
-      api: ws://your_websocket_api.server
-      event: ws://your_websocket_event.server
+      api: 
+      event: 
       # 重连间隔 单位毫秒
       reconnect-interval: 3000
       middlewares:
@@ -87,7 +84,11 @@ database:
 
 3. 保存后启动`go-cqhttp.exe`即可。  
 
-
+### 注意事项
+> 1. 推荐使用扫码登录(即不填password字段)
+> 2. 当提示“上网环境异常”等字样时，删除目录下的`device.json`、`session.token`两文件，再尝试扫码登录
+> 3. 跟换服务器/迁移bot请带上`device.json`、`session.token`两文件
+> 4. 扫码登录时若看不清/看不全/看不见二维码，打开目录下`qrcode.png`，扫描即可
 
 ### 事件过滤器
 
