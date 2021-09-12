@@ -1,5 +1,11 @@
 # 一键包
 
+<font color="red"><b>一键包会因为各种原因导致mirai core版本落后，请谨慎食用</b></font>
+
+<font color="red"><b>一键包会因为各种原因导致mirai core版本落后，请谨慎食用</b></font>
+
+<font color="red"><b>一键包会因为各种原因导致mirai core版本落后，请谨慎食用</b></font>
+
 ### 搭建与配置
 
 1. 从群文件/[releases页面](https://github.com/yimo0908/easy-build-otterbot/releases)下载一键包

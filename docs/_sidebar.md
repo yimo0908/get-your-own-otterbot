@@ -10,7 +10,7 @@
 * [框架选择](choice.md)
     * [命令行模式](choice.md?id=命令行模式)
         * [- mcl](mcl.md)
-        * [- mirai一键包](onekey.md)
+        * [【不推荐】- mirai一键包](onekey.md)
         * [- onebot-kotlin](onebot-kotlin.md)
         * [【推荐】- cqhttp-go](go.md)
         * [- OICQ](OICQ.md)
