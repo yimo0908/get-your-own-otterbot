@@ -16,7 +16,7 @@
         * [- OICQ](OICQ.md)
     * [Gui模式](choice.md?id=有界面，直接上手)
         * [【推荐】- 先驱](xq.md)
-
+	* [手机挂獭獭(mirai android)](android.md)
 * [占卜](README.md?id=占卜)
 
 * [注意事项](README.md?id=注意事项)
