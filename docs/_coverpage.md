@@ -6,4 +6,4 @@
 
 [Get Started](README.md?id=_)
 
-![](https://socialify.git.ci/yimo0908/get-your-own-otterbot/image?description=1&logo=https%3A%2F%2Fgithub.com%2Fyimo0908%2Fget-your-own-otterbot%2Fblob%2Fmain%2Fotter.jpg&name=1&owner=1&theme=Light)
+![](https://socialify.git.ci/yimo0908/get-your-own-otterbot/image?description=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2Fyimo0908%2Fget-your-own-otterbot%2Fmain%2Fotter.jpg&name=1&owner=1&theme=Light)
