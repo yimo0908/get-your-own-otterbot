@@ -26,7 +26,7 @@ A QQ bot for Final Fantasy XIV (mostly served for CN server).
 
 登陆獭窝（见下方快捷链接）。
 
-[![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) [![Website](https://img.shields.io/website?label=%20%E9%A3%8E%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbotapi.dead-war.cn%2F)](https://botapi.dead-war.cn/)
+[![Website](https://img.shields.io/website?label=%20%E4%B8%BB%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fxn--v9x.net%2F)](https://xn--v9x.net/)  [![Website](https://img.shields.io/website?label=%20%E7%AC%94%20%E7%AA%9D%20&style=social&up_message=link&url=https%3A%2F%2Fbot.pencilss.top%2F)](https://bot.pencilss.top/) 
 
 <details><summary>在领养/更新机器人中添加对应的参数如下：</summary>
 
@@ -54,9 +54,7 @@ A QQ bot for Final Fantasy XIV (mostly served for CN server).
 
 # 占卜 
 
-- **[win only]** mirai一键包自带占卜插件
-- **[win only]** mcl/onebot-kotlin可自行加载**mirai_native**插件后，在群文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
-- **[win only]** 先驱可自行加载**cqxq**插件后，在群文件获得占卜插件的dll和json文件，再通过cqxq加载占卜插件
+- **[win only]** mcl/onebot-kotlin可自行加载**mirai_native**插件后，在[群](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)文件获得占卜插件的dll和json文件，放入`.\date\MiraiNative\plugins`文件夹即可
 - **[all os]** 所有方式可以反向ws连接[基于nonebot重构的占卜插件](https://github.com/LittleNightmare/onebot_Astrologian_FFXIV)。**请注意nonebot的版本，v1 v2互不兼容。**
 
 ---

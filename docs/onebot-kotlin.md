@@ -6,7 +6,7 @@
 
 2. 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3. 在该目录下打开cmd或powershell，运行`java -jar onebot-kotlin-x.x.x-.jar`指令，待其生成相关文件。
+3. 在该目录下打开cmd或powershell，运行`java -jar "绝对路径/onebot-kotlin-x.x.x-.jar"`指令，待其生成相关文件。
 
 4. 从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
 

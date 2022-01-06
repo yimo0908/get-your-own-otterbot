@@ -1,14 +1,20 @@
 # 先驱獭
+**致所有先驱框架用户**：
 
-1. 下载[先驱框架（测试版）](http://api.xianqubot.com/index.php?newver=beta)与[OneBot-YaYa](https://github.com/Yiwen-Chan/OneBot-YaYa/releases) 并解压
+​	**自2021年12月21日起，先驱论坛、先驱api服务器无法连通，先驱运营开发团队超过48小时未有回应。找不到先驱服务节点将导致先驱无法登录新QQ，已登录账号暂时不受影响。**
 
-2. 解压先驱框架到文件夹，并运行`先驱.exe`，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架
+​	**请各位獭獭领养人做好迁移獭獭数据至mirai、gocq、oicq的准备，提前适应新设备可能带来的风控。**
 
-3. 切到`账号管理`界面登录机器人账号
 
-4. 从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）
+1. ~~下载[先驱框架（测试版）](http://api.xianqubot.com/index.php?newver=beta)与[OneBot-YaYa](https://github.com/Yiwen-Chan/OneBot-YaYa/releases) 并解压~~
 
-<details><summary>或根据实际情况编辑<font color="orange"><b>.\OneBot\config.yml</b>></font>文件</summary>
+2. ~~解压先驱框架到文件夹，并运行`先驱.exe`，待相关文件生成完毕后，将`OneBot-YaYa.XQ.dll`放入`.\Plugin`，重启先驱框架~~
+
+3. ~~切到`账号管理`界面登录机器人账号~~
+
+4. ~~从獭窝下载配置文件并替换`.\OneBot\config.yml`（客户端选择YaYa）~~
+
+<details><summary><s>或根据实际情况编辑<font color="orange"><b>.\OneBot\config.yml</b>></font>文件</s></summary>
 1. `master`改为`自己的QQ号`
 2. `bots` --> `bot`改为在獭獭后台申请的`姬气人QQ`
 3. `bots` --> `websocket_reverse` --> `name` 改为`獭獭`
@@ -25,7 +31,7 @@
 </details>
 
 
-<details><summary>5. 详细的配置文件说明</summary>
+<details><summary><s>5. 详细的配置文件说明</s></summary>
 
 ```yaml
 # 版本
@@ -89,6 +95,6 @@ bots:
 
 </details>
 
-6. 每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues) 
+6. ~~每个姬气人都可以设置多个 正向WS 反向WS HTTP 服务，实在不懂[加群](https://jq.qq.com/?_wv=1027&k=PVW9Ol8b)问或者提 [issue](https://github.com/Yiwen-Chan/OneBot-YaYa/issues)~~ 
 
-- 注：不要使用`重载插件`功能，修改保存配置文件后会自动热重载
+- ~~注：不要使用`重载插件`功能，修改保存配置文件后会自动热重载~~

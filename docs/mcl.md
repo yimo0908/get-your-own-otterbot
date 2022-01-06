@@ -6,11 +6,11 @@
 
 2. 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3. 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`java -jar mcl.jar`或` ./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
+3. 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
 
-4. 重启mcl，从獭窝下载配置文件并替换`.\config\OneBot\settings.yml`（客户端选择mirai）
+4. 重启mcl，从獭窝下载配置文件并替换`.\config\com.github.yyuueexxiinngg.onebot\settings.yml`（客户端选择mirai）
 
-<details><summary>或根据注释和实际情况更改<font color="orange"><b>.\config\OneBot\settings.yml</b></font>文件内容。</summary> 
+<details><summary>或根据注释和实际情况更改<font color="orange"><b>.\config\com.github.yyuueexxiinngg.onebot\settings.yml</b></font>文件内容。</summary> 
 
 ```yaml
 # 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
