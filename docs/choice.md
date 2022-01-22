@@ -13,25 +13,25 @@
 
 配置方法：[Click me](./mcl.md)
 
-优点：持续更新，且可通过对应脚本指令下载更新本体与插件；可自行加载其他mirai插件，缝合想要的功能
+优点：持续更新，且可通过对应脚本指令下载更新本体；可自行加载其他mirai插件，缝合想要的功能
 
-缺点：需自行更新插件；需要安装`jre (Java SE Runtime Environment 11)`
+缺点：需要安装`jre (Java SE Runtime Environment 11)`
 
 ## 3. onebot-kotlin
 
 配置方法：[Click me](./onebot-kotlin.md)
 
-优点：持续更新，可自行加载其他mirai插件，缝合想要的功能
+优点：可自行加载其他mirai插件，缝合想要的功能
 
-缺点：无法自动更新；需要安装`jre (Java SE Runtime Environment 8)`或更高
+缺点：需要安装`jre (Java SE Runtime Environment 8)`或更高
 
 ## 4. OICQ
 
 配置方法：[Click me](./OICQ.md)
 
-优点：即将停止更新（2022/4/30）
+优点：简单
 
-缺点：需要安装`node.js`
+缺点：即将停止更新（2022/4/30）；需要安装`node.js`
 
 ---
 # 属于比较离谱的东西

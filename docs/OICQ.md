@@ -42,7 +42,7 @@ module.exports = {
         // 反向WS Universal 地址
         // 主窝：ws://xn--v9x.net/ws
       	// 笔窝：ws://bot.pencilss.top/ws/
-      	// 风窝：wss://botapi.dead-war.cn:443/ws/
+
         ],
         ws_reverse_reconnect_interval: 3000, 
         ws_reverse_reconnect_on_code_1000: true, 
@@ -62,18 +62,6 @@ module.exports = {
    5. 在原目录下运行cmd/powshell, 重新运行指令 `oicq 123456789` (数字是你的bot账号)即可登录
 
    （ps.只有第一次登录需要输入密码/扫码）
-
-#### 更改登录设备类型
-
-在config.js中找到`platform`字段，修改其值即可更改登录设备类型
-
-
-| 值   | 类型  | 登录状态 | 限制                                           |
-| ---- | --------|----- | ---------------------------------------------- |
-| 0    | Android Pad | 平板在线 | 无法接收 `group_notify` 事件、无法接收口令红包 |
-| 1    | Android Phone| 手机在线 | 无                                             |
-
----
 
 
 

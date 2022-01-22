@@ -14,7 +14,7 @@
 
 
 ```yaml
-# 本文件只测试了主窝 食材村(笔窝) 风窝 鸡窝，其他窝不一定适用，请自行尝试
+# 本文件只测试了主窝 食材村(笔窝)，其他窝不一定适用，请自行尝试
 # 图片、语音下载代理设置
 proxy: ''
 bots: 
@@ -43,11 +43,8 @@ bots:
         postMessageFormat: string
         # 主窝 xn--v9x.net
         # 食材村（笔窝）bot.pencilss.top
-        # 风窝 botapi.dead-war.cn
-        # 鸡窝 tata.guomie.club
         reverseHost: 
-        # 主窝、食材村(笔窝)和鸡窝填80，风窝填4
-        reversePort: 
+        reversePort: 80
         # 访问口令，獭窝申请的时候的token
         accessToken: 
         reversePath: /ws

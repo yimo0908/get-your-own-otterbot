@@ -58,7 +58,7 @@ servers:
       # 反向WS Universal 地址
       # 主窝：ws://xn--v9x.net/ws
       # 笔窝：ws://bot.pencilss.top/ws/
-      # 风窝：wss://botapi.dead-war.cn:443/ws/
+
       universal: ws://your_websocket_universal.server
       api: 
       event: 
