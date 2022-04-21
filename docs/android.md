@@ -56,12 +56,9 @@ bots:
       # 可选，是否启用反向客户端,即是否启用獭獭
       - enable: true
         postMessageFormat: string
-        # 主窝 xn--v9x.net
-        # 食材村（笔窝）bot.pencilss.top
-        # 风窝 botapi.dead-war.cn
-        # 鸡窝 tata.guomie.club
+        # 獭窝反向WS Universal 地址
         reverseHost: 
-        # 主窝、食材村(笔窝)和鸡窝填80，风窝填443
+        # 根据窝具体情况填写端口
         reversePort: 
         # 访问口令，獭窝申请的时候的token
         accessToken: 

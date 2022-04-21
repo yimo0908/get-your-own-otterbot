@@ -55,10 +55,7 @@ default-middlewares: &default
 
 servers:
   - ws-reverse:
-      # 反向WS Universal 地址
-      # 主窝：ws://xn--v9x.net/ws
-      # 笔窝：ws://bot.pencilss.top/ws/
-
+      # 獭窝反向WS Universal 地址
       universal: ws://your_websocket_universal.server
       api: 
       event: 

@@ -39,10 +39,7 @@ module.exports = {
             
         ],
         ws_reverse_url: [ // 
-        // 反向WS Universal 地址
-        // 主窝：ws://xn--v9x.net/ws
-      	// 笔窝：ws://bot.pencilss.top/ws/
-
+        // 獭窝反向WS Universal 地址
         ],
         ws_reverse_reconnect_interval: 3000, 
         ws_reverse_reconnect_on_code_1000: true, 
