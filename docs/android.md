@@ -21,9 +21,9 @@
    ```
    [INFO]Successfully loaded plugin OneBot V0.x.x
    ```
-	则插件加载
+	则插件加载成功。
    
-5. 从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123/mirai.android\config\OneBot\settings.yml`（客户端选择mirai）
+5. 退出`Mirai Android`，从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123/mirai.android\config\OneBot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改<font color="orange"><b>settings.yml</b></font>文件内容。</summary> 
 
