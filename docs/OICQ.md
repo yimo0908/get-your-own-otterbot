@@ -4,7 +4,20 @@
 
 2. 新建一个文件夹(以英文命名, eg. `tata`)，在该目录下打开cmd或powershell，运行指令`npm i oicq@1`
 
-3. 运行指令`oicq 123456789 `(数字是你的bot账号)
+3. 运行指令`oicq 123456789 `(数字是你的bot账号)  
+   
+   若 `oicq 123456789 ` 提示 `oicq : 无法将“oicq”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。` 错误，需要修改目录下的 `package.json` 为类似如下样例。
+   ```json
+    {
+    "dependencies": {
+        "oicq": "^1.21.3"
+    },  //从此处开始添加，注意逗号
+    "scripts": {
+        "oicq": "oicq"
+    }  //结束
+    }
+
+   ```
 
 4. 从獭窝中下载配置文件并放到上一步指定的目录（通常为`C:\Users\username\.oicq`）下（客户端选择`OICQ`）。
 
