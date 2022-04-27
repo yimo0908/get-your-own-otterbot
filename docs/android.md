@@ -14,7 +14,7 @@
 
 2. 下载 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
-3. 用资源管理器定位到`onebot-mirai-0.x.x-all.jar`，open with `Mirai Android`。按照默认选项，让它自动重编译插件.
+3. 用资源管理器定位到`onebot-mirai-0.x.x-all.jar`，open with `Mirai Android`。按照默认选项，将文件名（带.jar）复制进对话框，让它自动重编译插件.
 
 4. 启动`Mirai Android`，观察到日志
 
@@ -23,7 +23,7 @@
    ```
 	则插件加载成功。
    
-5. 退出`Mirai Android`，从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123/mirai.android\config\OneBot\settings.yml`（客户端选择mirai）
+5. 退出`Mirai Android`，从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123/mirai.android\config\com.github.yyuueexxiinngg.onebot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改<font color="orange"><b>settings.yml</b></font>文件内容。</summary> 
 
