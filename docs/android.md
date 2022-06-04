@@ -6,7 +6,7 @@
 
 <font color="red"><b>mirai android只适用于部分Android系统</b></font>
 
-经测试，基于Android8.1的flyme os 8.1.5.1A可用
+经测试，基于`Android8.1`的`flyme os 8.1.5.1A`可用，基于`Android 9`的`flyme os 9.21.11.18 beta`可用。`Android 11`及以后需要特殊方法
 
 ### 搭建与配置
 
@@ -23,7 +23,7 @@
    ```
 	则插件加载成功。
    
-5. 退出`Mirai Android`，从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123/mirai.android\config\com.github.yyuueexxiinngg.onebot\settings.yml`（客户端选择mirai）
+5. 退出`Mirai Android`，从獭窝下载配置文件并替换`.\Android\data\io.github.mzdluo123.mirai.android\config\com.github.yyuueexxiinngg.onebot\settings.yml`（客户端选择mirai）
 
 <details><summary>或根据注释和实际情况更改<font color="orange"><b>settings.yml</b></font>文件内容。</summary> 
 
