@@ -2,7 +2,7 @@
 
 ### 搭建与配置
 
-1. 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptopenjdk.net/releases.html)或更高
+1. 下载并安装[`jre (Java SE Runtime Environment 8)`](https://adoptium.net/zh-CN/temurin/releases?version=8)或更高
 
 2. 下载[onebot-kotlin](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 

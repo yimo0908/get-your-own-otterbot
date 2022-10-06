@@ -2,9 +2,9 @@
 
 ### 搭建与配置
 
-1. 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptopenjdk.net/releases.html)
+1. 下载并安装[`jre (Java SE Runtime Environment 11)`](https://adoptium.net/zh-CN/temurin/releases?version=11)
 
-2. 下载[mcl](https://github.com/iTXTech/mirai-console-loader) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
+2. 下载[mcl](https://github.com/iTXTech/mirai-console-loader/releases) 与 [onebot-mirai](https://github.com/yyuueexxiinngg/onebot-kotlin/releases)
 
 3. 解压mcl，并运行mcl.cmd (也可以在该目录下打开cmd或powershell，运行`./mcl`指令)。等待其生成相关文件并关闭mcl。将`onebot-mirai-x.x.x-all.jar`放入目录`.\plugins`。
 
