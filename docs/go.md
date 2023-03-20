@@ -55,6 +55,8 @@ default-middlewares: &default
 
 servers:
   - ws-reverse:
+      # 是否禁用当前反向ws服务
+      disabled: false
       # 獭窝反向WS Universal 地址
       universal: ws://your_websocket_universal.server
       api: 
@@ -81,7 +83,7 @@ database:
 3. 在该目录下打开cmd或powershell，运行`./go-cqhttp`即可。  
 
 ### 注意事项
-> 1. 推荐使用扫码登录(即不填password字段)
+> 1. 使用前请完善`config.yml`文件的`password`字段或使用扫码登陆（仅Android Watch协议）
 > 2. 当提示“上网环境异常”等字样时，删除目录下的`device.json`、`session.token`两文件，再尝试扫码登录
 > 3. 跟换服务器/迁移bot请带上`device.json`、`session.token`两文件
 > 4. 扫码登录时若看不清/看不全/看不见二维码，打开目录下`qrcode.png`，扫描即可
@@ -108,6 +110,7 @@ database:
 | 1    | Android Phone| 安卓手机在线 | 无法接收新版表情如 `/吃瓜`、`/汪汪`, 会自动转换为字符串          |
 | 2 | Android Watch | 安卓手表在线 | 除`Android Phone`的限制外, 无法接收 `notify` 事件、无法接收口令红包、无法接收撤回消息 |
 | 3 | MacOS | 苹果电脑在线 | 无 |
+| 4 | 企点 | 企点协议在线 | 只能登录企点账号或企点子账号 |
 
 </details>
 
