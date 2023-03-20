@@ -4,4 +4,3 @@
 [![QQGroup](https://img.shields.io/badge/QQ%20Group-660557003-brightgreen)](https://jq.qq.com/?_wv=1027&k=2ecQU6AV)            [![](https://img.shields.io/badge/OtterBot-Bluefissure-brightgreen)](https://github.com/Bluefissure/OtterBot)            [![system](https://img.shields.io/badge/system-Windows-brightgreen)](https://next.itellyou.cn/Original/Index)
 
 参考文档：[ClickMe](https://yimo0908.github.io/get-your-own-otterbot/#/)
-镜像文档：[ClickMe](https://yimo0908.gitee.io/get-your-own-otterbot/#/)
